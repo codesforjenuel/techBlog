@@ -14,6 +14,11 @@ class Post extends Model {
         primaryKey: true,
         autoIncrement: true,
       },
+      userid: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+       
+      },
       title: {
         type: DataTypes.STRING
         
